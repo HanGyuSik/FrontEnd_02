@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>JS PWA</title>
+  <!--Style-->
+  <link rel="stylesheet" href="./style.css">
+  <!--내부JavaScript-->
+  <!--위치1-->
+  <script>
+//  alert("hello world");
+//  console.log("hello world");
+  </script>
+<!--외부JavaScript-->
+<!--<script src="./index.js"></script>-->
+<script src="./자바.js"></script>
+</head>
+<body>
+  <div id="root">                                     <!--id = #-->
+    <header>
+      <h1>자바스크립트 Test</h1>
+    </header>
+    <main id="content">           <!--id : 유일값으로 설정-->
+      <section id="msg">
+                
+      </section>
+      <div id="radio01">          <!--라디오 버튼-->
+        <input type="radio" id="one" name="num" value="1"> one
+        <input type="radio" id="two" name="num" value="2"> two
+        <input type="radio" id="three" name="num" value="3"> three
+        <input type="radio" id="four" name="num" value="4"> four
+        <input type="radio" id="five" name="num" value="5"> five
+        <input type="radio" id="six" name="num" value="6"> six
+      </div>
+      <section id="bt">
+        <button class="bt2" onclick="show();">돌리기</button>
+        <button class="bt1" onclick="reset();">리셋</button>       <!--class : 다수로 설정-->
+<!--    <button class="bt1" onclick="funPrint(2);">버튼2</button> -->            <!--인수는 html에서 입력-->     
+      </section>
+    </main>
+  </div>
+  <!--<script></scrip>-->
+</body>
+</html>
